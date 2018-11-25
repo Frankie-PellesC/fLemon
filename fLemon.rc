@@ -8,7 +8,7 @@
 LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_US
 
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 1, 0, 0, 277
+FILEVERSION 1, 0, 0, 283
 PRODUCTVERSION 1,0,0,0
 FILEFLAGSMASK 0x3F
 FILEFLAGS 0x0
@@ -22,7 +22,7 @@ FILESUBTYPE VFT2_UNKNOWN
     {
       VALUE "CompanyName", "frankie from LEMON\0"
       VALUE "FileDescription", "fLemon LALR(1) Parser Generator\0"
-VALUE "FileVersion", "1.0.0.277\0"
+VALUE "FileVersion", "1.0.0.283\0"
       VALUE "InternalName", "fLemon LALR(1) Parser Generator\0"
       VALUE "OriginalFilename", "fLemon LALR(1) Parser Generator\0"
       VALUE "ProductName", "fLemon LALR(1) Parser Generator\0"

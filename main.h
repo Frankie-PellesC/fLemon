@@ -2,9 +2,10 @@
 #define MAIN_H__
 #pragma once
 
-#ifndef __POCC__
+#if !defined(__POCC__) && defined(_MSC_VER)
 #define _CRT_SECURE_NO_WARNINGS 1
 #define restrict
+#include <time.h>	//MSVC want this before any other header... what a bullsxxxt!
 #endif
 
 /*

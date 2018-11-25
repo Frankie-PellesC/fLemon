@@ -2766,7 +2766,7 @@ void ReportHeader(struct lemon *lemp)
 		int lim = p ? p - filename : strlen(filename);
 
 #ifdef __POCC__
-		#include <time.h>
+#include <time.h>
 #endif
 		time_t t = time(NULL);
 
